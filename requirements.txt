@@ -1,0 +1,7 @@
+torch
+transformers
+datasets
+tqdm
+pyyaml
+accelerate
+peft
