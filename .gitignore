@@ -23,3 +23,28 @@ data/*.txt
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Test cache and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter and notebook checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+*.env
+
+# Linting and build artifacts
+linting_errors.log
+build/
+dist/
+*.egg-info/
+
+# Miscellaneous non-code files
+prompt.txt
+PROMPT_README_GEMINI_CLI.md
+GEMINI.md
