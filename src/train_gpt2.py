@@ -120,3 +120,5 @@ if __name__ == "__main__":
             "configs/default.yaml or configs/lora.yaml)"
         ),
     )
+    args = parser.parse_args()
+    train_gpt2(args.config)

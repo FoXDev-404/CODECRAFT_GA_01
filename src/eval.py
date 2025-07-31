@@ -56,6 +56,8 @@ if __name__ == "__main__":
     # eval_text_path = "path/to/your/evaluation_corpus.txt"
     # device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    # results = evaluate_model(model_path, tokenizer_path, eval_text_path, device)
+    # results = evaluate_model(
+    #     model_path, tokenizer_path, eval_text_path, device
+    # )
     # print(results)
     pass

@@ -68,7 +68,9 @@ def load_and_preprocess_data(file_path, tokenizer_name="gpt2", block_size=128):
 
 
 if __name__ == "__main__":
+    # Create a dummy corpus for testing
     dummy_corpus_path = "data/dummy_corpus.txt"
+    os.makedirs(os.path.dirname(dummy_corpus_path), exist_ok=True)
     with open(dummy_corpus_path, "w") as f:
         f.write(
             "This is a test sentence. This is another test sentence. "
